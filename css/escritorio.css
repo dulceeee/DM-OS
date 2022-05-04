@@ -1,0 +1,16 @@
+body{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+.escritorio{
+    margin-top: 4.5rem;
+}
+
+.escritorio img{
+    width: 110rem;
+    height: 70rem;
+}
