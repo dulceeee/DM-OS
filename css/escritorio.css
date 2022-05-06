@@ -1,16 +1,82 @@
-body{
-    width: 100%;
-    height: auto;
+.caja-padre{
+    width: 80rem;
+    height: 50rem;
+    margin: auto;
+    margin-top: 13rem;
+    
+    background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjY0Ni10YW5nLTE4LWF1dHVtbl8xLmpwZw.jpg");
 
     display: flex;
     justify-content: center;
 }
 
-.escritorio{
-    margin-top: 4.5rem;
+.barra-de-tareas{
+    width: 6rem;
+    height: 50rem;
+    background-color: var(--color2);
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 
-.escritorio img{
-    width: 110rem;
-    height: 70rem;
+.barra-de-tareas i{
+    color: var(--color1);
+    font-size: 1.7rem;
+}
+
+.barra-de-tareas img{
+    width: 1.7rem;
+    margin: 1rem;
+}
+
+.fi-sr-apps{
+    margin-top: 5rem;
+    margin-bottom: 1.7rem;
+}
+
+.fi-sr-power{
+    margin: 1rem;
+}
+
+.fi-rr-menu-burger{
+    margin: 1rem;
+}
+
+.fi-rr-settings{
+    margin: 1rem;
+}
+
+.fi-rr-folder{
+    margin: 1rem;
+}
+
+.barra-de-tareas .icon{
+    width: 3.3rem;
+    margin-bottom: 10rem;
+    border-radius: 50%;
+}
+
+.date{
+    width: 100rem;
+    height: 3rem;
+    padding-right: 2rem;
+
+    color:var(--color1) ;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+p{
+    margin: 0.3rem;
+}
+
+.fa-battery-half{
+    margin: 0.3rem;
+}
+
+.fa-wifi{
+    margin: 0.3rem;   
 }
