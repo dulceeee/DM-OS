@@ -1,0 +1,42 @@
+.menu{
+    display: none;
+
+    width: 20rem;
+    height: 50rem;
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+
+    color: var(--color1);
+    font-size: var(--size4) ;
+    background-color: var(--color2);
+    border-radius: 0rem 3rem 3rem 0rem;
+
+    position: absolute;
+    left: 45rem;
+}
+
+.activo{
+    display: block;
+}
+
+.menu img{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1.5rem;
+    vertical-align: -0.6rem;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+li i{
+    font-size: 2rem;
+    line-height: 1.8;
+    vertical-align: -0.6rem;
+}
+
+.calculadora{
+    margin-top: 1rem;
+}

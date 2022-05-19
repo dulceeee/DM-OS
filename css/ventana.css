@@ -1,0 +1,16 @@
+.ventana{
+    display: none;
+
+    width: 50rem;
+    height: 30rem;
+    border-radius: 3rem;
+
+    position: absolute;
+    top: 20rem;
+
+    background-color: var(--color3);
+}
+
+.activo{
+    display: block;
+}

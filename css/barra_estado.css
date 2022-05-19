@@ -1,0 +1,23 @@
+.date{
+    width: 100rem;
+    height: 3.5rem;
+    padding-right: 2rem;
+
+    color:var(--color1) ;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+p{
+    margin: 0.3rem;
+}
+
+.fa-battery-half{
+    margin: 0.3rem;
+}
+
+.fa-wifi{
+    margin: 0.3rem;   
+}
