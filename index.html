@@ -9,6 +9,10 @@
         <!-- Archivos CSS -->
         <link rel="stylesheet" href="css/configuraciones.css">
         <link rel="stylesheet" href="css/escritorio.css">
+        <link rel="stylesheet" href="css/barra.css">
+        <link rel="stylesheet" href="css/barra_estado.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/ventana.css">
     
         <!-- Links vectores -->
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
@@ -22,14 +26,67 @@
 
     <section class="caja-padre">
         <div class="barra-de-tareas">
-            <i class="fi fi-sr-apps"></i>
+            <i class="fi fi-sr-apps" id="icon_menu"></i>
             <i class="fi fi-sr-power"></i>
-            <i class="fi fi-rr-menu-burger"></i>
             <i class="fi fi-rr-settings"></i>
-            <i class="fi fi-rr-folder"></i>
+            <i class="fi fi-rr-folder" id="folder"></i>
             <img src="https://cdn-icons-png.flaticon.com/512/732/732205.png" alt="">
             <img src="https://cdn-icons-png.flaticon.com/512/174/174872.png" alt="">
             <img class="icon" src="https://www.assyst.de/cms/upload/sub/digitalisierung/18-F.jpg" alt="">
+        </div>
+
+        <div class="menu" id="menu">
+            <p>Recientes</p>
+            <ul class="apps">
+                <li>
+                    <img  src="https://img.icons8.com/ios/500/notion.png" alt=""> Notion
+                </li>
+                <li>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt=""> Figma
+                </li>
+                <li>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968472.png" alt=""> Adobe Ilustrator
+                </li>
+            </ul>
+            <br> <p>A</p>
+
+            <ul class="apps">
+                <li>
+                    <img  src="https://cdn-icons-png.flaticon.com/512/5968/5968428.png" alt=""> Adobe After Effects
+                </li>
+
+                <li>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968472.png" alt=""> Adobe Ilustrator
+                </li>
+
+                <li>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968482.png" alt=""> Adobe InDesign
+                </li>
+
+                <li>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968520.png" alt=""> Adobe PhotoShop
+                </li>
+
+                <li>
+                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968525.png" alt=""> Adobe Premier Pro
+                </li>
+            </ul>
+
+            <br> <p>C</p>
+
+            <ul class="apps">
+                <li class="calculadora">
+                    <i class="fi fi-rr-calculator"></i> Calculadora
+                </li>
+                <li>
+                    <i class="fi fi-rr-calendar"></i> Calendario
+                </li>
+                <li>
+                    <i class="fi fi-rr-camera"></i> Cámara
+                </li>
+            </ul>
+            </div>
+
         </div>
 
         <div class="date">
@@ -37,7 +94,11 @@
             <i class="fa-solid fa-wifi"></i>
             <p>10:10 A.M.</p>
             <p>Mayo 02, 2022</p>
+        
+        <div class="ventana" id="carpeta"></div>
+
         </div>
+
     </section>
 
 
