@@ -23,7 +23,7 @@
 .carpeta img{
     position: absolute;
     top: 25rem;
-    right: 43.1rem;
+    right: 43rem;
 
     width: 5rem;
 }
@@ -63,5 +63,5 @@ div .name_folder{
 }
 
 div .comandos img{
-    width: 3rem;
+    width: 2.5rem;
 }
